@@ -1,7 +1,7 @@
 ---
 title: "CSS Pseudo-elements"
 description: "CSS Pseudo-elements, Child combinator, Descendant combinator, Adjacent zibiling combinator, General sibling combinator."
-publishDate: "10 Sept 2023"
+publishDate: "23 Oct 2023"
 tags: ["CSS"]
 ---
 

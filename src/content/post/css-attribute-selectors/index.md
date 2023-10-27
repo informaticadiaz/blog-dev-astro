@@ -1,7 +1,7 @@
 ---
 title: "CSS Attribute Selectors"
 description: "CSS Attribute Selectors, CSS Attribute Selectors attribute selectors target elements,"
-publishDate: "10 Sept 2023"
+publishDate: "22 Oct 2023"
 tags: ["CSS"]
 ---
 
