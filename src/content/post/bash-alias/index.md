@@ -19,7 +19,7 @@ por ejemplo para acceder al directorio `/home/devhome/diazignacio` agrego un ali
 
 `alias diaz='cd /home/devhome/diazignacio'`
 
-reiniciar el sistema
+correr `source ~/.bashrc` para reiniciar bash y poder usar los comandos
 
 de ahora en mas cada vez que quieras acceder al directorio `/home/devhome/diazignacio` puedes escribir en la terminal diaz.
 
