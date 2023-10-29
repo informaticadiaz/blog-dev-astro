@@ -97,7 +97,7 @@ Note! All attribute selectors values are cased sensitive by default.
 
 To make the value be compared case-insesitively, simply add an `i` or `I` before the closing bracket.
 
-```CSS
+```css
 a[title="codeliber" i] {
  color: red;
 }
