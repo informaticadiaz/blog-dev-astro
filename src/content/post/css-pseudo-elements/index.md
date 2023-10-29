@@ -33,7 +33,7 @@ It is commonly used with the content CSS property to add cosmetics to the select
 
 The creared element is inline by default.
 
-```CSS
+```css
 .true::after {
    content: "-> True";
    color: green;
@@ -46,13 +46,13 @@ The creared element is inline by default.
 
 ## The ::before pseudo-element
 
-The ::before CSS pseudo-element creates a pseudo-element that is the first child of the selected element.
+The ::before css pseudo-element creates a pseudo-element that is the first child of the selected element.
 
 It is commontly used with the content CSS property to add cosmetics to the selected element.
 
 The created element is inline by default.
 
-```CSS
+```css
 .true::before {
    content: "-> True";
    color: green;
@@ -65,7 +65,7 @@ The created element is inline by default.
 
 We can also use it on HTML lists to add custom bullets:
 
-```CSS
+```css
 ul {
    list-style-type: none;
 }
@@ -89,7 +89,7 @@ Allowed CSS properties:
 - All color property
 - word-spacing, letter-spacing, text-decoration, text-transform, line-height, text-shadow, text-decoration-style, vertical-align
 
-```CSS
+```css
 p::first-letter {
    text-decoration: overline;
    font-size: 250%;
@@ -108,7 +108,7 @@ Allowed CSS Properties:
 - The color property
 - word-spacing, letter-spacing, text-decoration, text-transform, line-height, text-shadow, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, vertical-align.
 
-```CSS
+```css
 p::first-line {
    color: #f8f9f9;
    background-color: #173459;
@@ -130,7 +130,7 @@ Allowed CSS Properties:
 - text-emphasis-color
 - text-shadow
 
-```CSS
+```css
 p::selection, textarea::selection {
    color: green;
    background-color: red;

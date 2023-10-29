@@ -19,9 +19,9 @@ To center inline elements and/or text we need to wet the text-align CSS property
 
 ```css
 .center {
-	text-align: center;
-	width: 100%;
-	border: 3px solid #173459;
+ text-align: center;
+ width: 100%;
+ border: 3px solid #173459;
 }
 ```
 
@@ -35,10 +35,10 @@ Don't forget to set the element's width property so it will not stretch to the e
 
 ```css
 .center {
-	margin: 0 auto; /* same as margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; */
-	width: 60%;
-	padding: 20px;
-	border: 3px solid #173459;
+ margin: 0 auto; /* same as margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; */
+ width: 60%;
+ padding: 20px;
+ border: 3px solid #173459;
 }
 ```
 
@@ -51,10 +51,10 @@ block.
 
 ```css
 .img {
-	display: block;
-	margin: 0 auto;
-	width: 60%;
-	height: auto;
+ display: block;
+ margin: 0 auto;
+ width: 60%;
+ height: auto;
 }
 ```
 
@@ -65,13 +65,13 @@ text-align CSS property.
 
 ```css
 .left {
-	text-align: left;
+ text-align: left;
 }
 .right {
-	text-align: right;
+ text-align: right;
 }
 p {
-	background: lightgrey;
+ background: lightgrey;
 }
 ```
 
@@ -81,10 +81,10 @@ To left or right align elements use the position CSS property together qith the 
 
 ```css
 .right {
-	float: right;
-	width: 60%;
-	padding: 10px;
-	border: 3px solid #173459;
+ float: right;
+ width: 60%;
+ padding: 10px;
+ border: 3px solid #173459;
 }
 ```
 
@@ -94,10 +94,10 @@ Another method is to use the float CSS property.
 
 ```css
 .right {
-	float: right;
-	width: 60%;
-	padding: 10px;
-	border: 3px solid #173459;
+ float: right;
+ width: 60%;
+ padding: 10px;
+ border: 3px solid #173459;
 }
 ```
 
@@ -113,9 +113,9 @@ Here is how to vertically center atext using padding:
 
 ```css
 div {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	border: 3px solid #173459;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ border: 3px solid #173459;
 }
 ```
 
@@ -124,10 +124,10 @@ vertically center the text:
 
 ```css
 div {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	text-align: center;
-	border: 3px solid #173459;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ text-align: center;
+ border: 3px solid #173459;
 }
 ```
 
@@ -135,12 +135,12 @@ On the example bellow we will vertically center a `<div>` inside a `<div>` using
 
 ```css
 div.container {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background: #903c56;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ background: #903c56;
 }
 div.content {
-	background: #89c3d0;
+ background: #89c3d0;
 }
 ```
 
@@ -150,11 +150,11 @@ To top or bottom align elements use the position CSS property together with the 
 
 ```css
 .bottom {
-	position: absolute;
-	bottom: 0;
-	width: 60%;
-	padding: 10px;
-	border: 3px solid #173459;
+ position: absolute;
+ bottom: 0;
+ width: 60%;
+ padding: 10px;
+ border: 3px solid #173459;
 }
 ```
 
@@ -166,11 +166,11 @@ To center a text both horizontally and vertically inside an element (or containe
 
 ```css
 div {
-	width: 250px;
-	line-height: 250px;
-	text-align: center;
-	font-size: 20px;
-	background: lightblue;
+ width: 250px;
+ line-height: 250px;
+ text-align: center;
+ font-size: 20px;
+ background: lightblue;
 }
 ```
 
@@ -186,7 +186,7 @@ to:
 
 Here is how to exactly do it:
 
-```CSS
+```css
 .center {
     position: relative;
     height: 500px;

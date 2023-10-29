@@ -43,8 +43,8 @@ If the function body has more than one statement, you need to use curly brackets
 
 ```javascript
 const greetPerson = (name) => {
-	const greeting = "Hello, " + name + "!";
-	return greeting;
+ const greeting = "Hello, " + name + "!";
+ return greeting;
 };
 console.log(greetPerson("Alice"));
 // Output: Hello, Alice!

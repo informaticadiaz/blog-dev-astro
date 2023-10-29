@@ -15,7 +15,7 @@ Selects elements with selectors target elements based on the presence or value o
 
 The example below selects `<a>` elements with the title attribute.
 
-```CSS
+```css
 a[title] {
    color: red;
 }
@@ -27,7 +27,7 @@ Selects elements with an attribute name of attr whose value is axactly value.
 
 The example below selects `<a>` elements whose title attribute's value is exactly codeliber.
 
-```CSS
+```css
 a[title="codeliber"] {
    color:red;
 }
@@ -41,7 +41,7 @@ It can select elements with the attribute name `attr` that has multiple values (
 
 The example below selects `<a>` elements whose `title` attribute's values are `codeliber`, `codeliber css`, `css codeliber`, `html codeliber css` but NOT `codelibers` and `codeliber-css`.
 
-```CSS
+```css
 a[title~="codeliber"] {
    color: red;
 }
@@ -55,7 +55,7 @@ It is often used for language subcode matches.
 
 The example below selects `div` elements whose lang attribute values start with `en-`.
 
-```CSS
+```css
 div[lang|="en"] {
    color: green;
 }
@@ -63,7 +63,7 @@ div[lang|="en"] {
 
 The example below selects `<div>` elements whose lang attribute values start with `zh-`.
 
-```CSS
+```css
 div[lang="zh"] {
    color: red;
 }
@@ -75,7 +75,7 @@ Selects elements with an attribute name of attr whose value is prefixed (precede
 
 The example below selects internal links(`<a>` elements whose `href` value starts with a hash `#`).
 
-```CSS
+```css
 a[href^="#"] {
    color:fuchsia;
 }
@@ -87,7 +87,7 @@ Select elements with an attribute name of `attr` whose value is prefixed (preced
 
 The example below selects `<a>` elements whose `href` value ends with `.org`.
 
-```CSS
+```css
 a[href*="exam"] {
    color: red;
 }

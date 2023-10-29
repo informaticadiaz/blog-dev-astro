@@ -22,7 +22,7 @@ General sibling combinator ~
 
 ### Descendant combinator
 
-```CSS
+```css
 selector1 selector2 {
    /*CSS declarations*/
 }
@@ -34,7 +34,7 @@ The descendant combinator is represented by a single space .
 
 Example:
 
-```CSS
+```css
 div span {
    color: red;
 }
@@ -42,7 +42,7 @@ div span {
 
 ### Child Combinator
 
-```CSS
+```css
 selector1 + selector2 {
  /*CSS declarations*/
 }
@@ -54,7 +54,7 @@ The Child combinator is represented by the > character.
 
 Example:
 
-```CSS
+```css
 div > span {
    color: red;
 }
@@ -62,7 +62,7 @@ div > span {
 
 ### Adjacent Sibiling Combinator
 
-```CSS
+```css
 .selector1 + .secertor2 {
    /* CSS declarations */
 }
@@ -74,7 +74,7 @@ The adjacent sibling combinator is represented by the + character.
 
 Example:
 
-```CSS
+```css
 li#two + li {
    color: red;
 }
@@ -82,7 +82,7 @@ li#two + li {
 
 ### General Siblign combinator
 
-```CSS
+```css
 .selector1 ~ .selector2 {
    /*CSS declarations*/
 }
@@ -94,7 +94,7 @@ The general sibling combinator is represented by the ~ character.
 
 Example:
 
-```CSS
+```css
 li#two ~ li {
      color: red;
 }
