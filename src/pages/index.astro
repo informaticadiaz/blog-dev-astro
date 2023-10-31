@@ -54,15 +54,15 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 
 <PageLayout meta={{ title: "home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
-		<p class="mb-4">
+		<h1 class="title mb-6 text-9xl">Hello World!</h1>
+		<p class="mb-4 text-4xl">
 			Hola Mundo!, escribo tips sobre desarrollo frontend.
 		</p>
 		<SocialList />
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Posts</h2>
-		<ul class="space-y-4 sm:space-y-2">
+		<ul class="space-y-4 sm:space-y-2 text-4xl">
 			{
 				allPostsByDate.map((p) => (
 					<li class="flex flex-col gap-x-2 sm:flex-row">
