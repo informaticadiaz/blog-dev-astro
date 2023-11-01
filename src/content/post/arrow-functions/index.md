@@ -66,7 +66,7 @@ Arrow functions are particularluy popular when used as short callbacks.
 
 ```javascript
 const numbers = [1, 2, 3, 4];
-const doubled = numbers.map((num) => num + 2);
-console.log(doubled);
+const doubled = numbers.map((num) => num * 2); 
+console.log
 // Output: [2, 4, 6, 8]
 ```

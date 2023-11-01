@@ -39,7 +39,7 @@ Por ejemplo:
 git commit -m "Agregado un nuevo archivo y realizado cambios en el archivo existente"
 ```
 
-5. Confirma el commit: El commit se ha creado en tu repositorio local. Para subir los cambios al repositorio remoto (como GitHub), debes usar el comando `git push`:
+5. Confirma el commit: El commit se ha creado en tu repositorio local. Para subir los cambios al repositorio remoto (como GitHub), debes usar el comando `git push`:.
 
 ```bash
 git push
