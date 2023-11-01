@@ -56,3 +56,9 @@ git commit -am "Mensaje descriptivo del commit" && git push
 En este comando, estamos utilizando la opción `-a` con `git commit`, que significa "all" (todos), lo que agrega automáticamente todos los archivos modificados y elimina los archivos eliminados al área de preparación (staging). Luego, el operador `&&` se utiliza para ejecutar el siguiente comando, que es `git push`, que envía los cambios al repositorio remoto.
 
 Este enfoque es útil si estás seguro de que deseas agregar y confirmar todos los archivos modificados en un solo paso. Sin embargo, ten en cuenta que no te permitirá revisar los cambios individualmente antes de confirmarlos. Asegúrate de utilizar esta opción con precaución y solo cuando estés seguro de que todos los cambios son correctos y deseas confirmarlos de inmediato.
+
+### Caso hipotetico
+
+Supongamos tengo una rama principal llamada main y creo una branch llamada dev hago cambios en el codigo en la rama dev durante cinco meses. Una vez terminado mi trabajo me doy cuenta que la rama dev no llego a buen puerto y decido volver a empezar con el codigo de main. Para hacer esto puedo hacer un merge, para el caso, dentro de la rama dev ejecutaria el siguiente comando.
+
+`git merge main`
