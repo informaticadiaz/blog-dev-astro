@@ -5,6 +5,8 @@ publishDate: "30 Oct 2023"
 tags: ["setup", "git"]
 ---
 
+## Commit
+
 Para hacer un commit en tu repositorio de Git desde la terminal, sigue estos pasos:
 
 1. Abre la terminal: Abre la terminal en tu sistema operativo. Asegúrate de estar en el directorio raíz de tu repositorio o cambia al directorio del repositorio usando el comando `cd` (change directory).
